@@ -39,7 +39,7 @@ SWIFT_PM_CHECKSUM_LINE="          checksum: \"${CHECKSUM}\""
 
 # Use sed to remove line 62 from the Swift.package and replace it with the new checksum
 sed -i '' "62s/.*/$SWIFT_PM_CHECKSUM_LINE/" "${SWIFT_PACKAGE_PATH}"
-SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/OneSignal\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalCore.xcframework.zip\","
+SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/salardstn\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalCore.xcframework.zip\","
 #Use sed to remove line 61 from the Swift.package and replace it with the new URL for the new release
 sed -i '' "61s/.*/$SWIFT_PM_URL_LINE/" "${SWIFT_PACKAGE_PATH}"
 #Open XCFramework folder to drag zip into new release
@@ -78,7 +78,7 @@ SWIFT_PM_CHECKSUM_LINE="          checksum: \"${CHECKSUM}\""
 echo ${CHECKSUM}
 # Use sed to remove line 57 from the Swift.package and replace it with the new checksum
 sed -i '' "57s/.*/$SWIFT_PM_CHECKSUM_LINE/" "${SWIFT_PACKAGE_PATH}"
-SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/OneSignal\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalOutcomes.xcframework.zip\","
+SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/salardstn\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalOutcomes.xcframework.zip\","
 #Use sed to remove line 56 from the Swift.package and replace it with the new URL for the new release
 sed -i '' "56s/.*/$SWIFT_PM_URL_LINE/" "${SWIFT_PACKAGE_PATH}"
 #Open XCFramework folder to drag zip into new release
@@ -117,7 +117,7 @@ SWIFT_PM_CHECKSUM_LINE="          checksum: \"${CHECKSUM}\""
 echo ${CHECKSUM}
 # Use sed to remove line 52 from the Swift.package and replace it with the new checksum
 sed -i '' "52s/.*/$SWIFT_PM_CHECKSUM_LINE/" "${SWIFT_PACKAGE_PATH}"
-SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/OneSignal\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalExtension.xcframework.zip\","
+SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/salardstn\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignalExtension.xcframework.zip\","
 #Use sed to remove line 51 from the Swift.package and replace it with the new URL for the new release
 sed -i '' "51s/.*/$SWIFT_PM_URL_LINE/" "${SWIFT_PACKAGE_PATH}"
 #Open XCFramework folder to drag zip into new release
@@ -156,7 +156,7 @@ SWIFT_PM_CHECKSUM_LINE="          checksum: \"${CHECKSUM}\""
 echo ${CHECKSUM}
 # Use sed to remove line 47 from the Swift.package and replace it with the new checksum
 sed -i '' "47s/.*/$SWIFT_PM_CHECKSUM_LINE/" "${SWIFT_PACKAGE_PATH}"
-SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/OneSignal\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignal.xcframework.zip\","
+SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/salardstn\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/OneSignal.xcframework.zip\","
 #Use sed to remove line 46 from the Swift.package and replace it with the new URL for the new release
 sed -i '' "46s/.*/$SWIFT_PM_URL_LINE/" "${SWIFT_PACKAGE_PATH}"
 #Open XCFramework folder to drag zip into new release

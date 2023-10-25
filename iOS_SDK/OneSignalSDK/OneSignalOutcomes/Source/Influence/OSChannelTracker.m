@@ -139,14 +139,9 @@ THE SOFTWARE.
     
     if (_influenceType == DIRECT) {
         if ([self isDirectSessionEnabled]) {
-            if (_directId) {
-                NSArray *ids = [NSArray arrayWithObject:_directId];
-                builder.ids = ids;
-                builder.influenceType = DIRECT;
-            } else {
-                [OneSignalLog onesignalLog:ONE_S_LL_ERROR message:@"OSChannelTracker:currentSessionInfluence found a direct influence without a direct id."];
-            }
-            
+            NSArray *ids = [NSArray arrayWithObject:_directId];
+            builder.ids = ids;
+            builder.influenceType = DIRECT;
         }
     } else if (_influenceType == INDIRECT) {
         if ([self isIndirectSessionEnabled]) {
